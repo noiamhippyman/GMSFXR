@@ -32,6 +32,14 @@ audio_play_sound(soundID,10,true);
 //Lets create a second noise
 sfxr_reset();//generally it's best to use sfxr_reset to start from a clean slate.
 
+//Now we need to set any parameters that we want to customize.
+//This page will show what each parameter does.
+//Link: https://lmms.io/wiki/index.php?title=SFXR
+sfxr_set_env_attack_time(0.5);
+sfxr_set_env_sustain_time(1);
+sfxr_set_env_decay_time(0.3);
 
 anotherBuffer = sfxr_create_buffer();
 anotherSoundID = sfxr_create_audio(audioBuffer);
+
+audio_play_sound(anotherSoundID,10,true);

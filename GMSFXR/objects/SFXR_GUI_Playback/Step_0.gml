@@ -5,7 +5,7 @@ if (imguigml_ready()) {
     
         var ret = imguigml_slider_float("Volume", global._sfxr_master_vol,0,1);
         if (ret[0]) {
-            global._sfxr_master_vol = ret[1];
+            sfxr_set_master_volume(ret[1]);
             editorID.m_requiresUpdate = true;
         }
         

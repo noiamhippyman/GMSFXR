@@ -6,10 +6,6 @@ if (imguigml_ready()) {
     var buttonSizeW = sprite_width * 0.85;
     var buttonSizeH = sprite_height * 0.095;
     
-    // imguigml_indent();
-    // imguigml_text("Generators");
-    // imguigml_unindent();
-    
     if (imguigml_button("PICKUP/COIN",buttonSizeW,buttonSizeH)) {
         sfxr_preset_coinpickup();
         editorID.m_requiresUpdate = true;

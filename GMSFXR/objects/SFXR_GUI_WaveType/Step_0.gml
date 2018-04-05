@@ -7,28 +7,28 @@ if (imguigml_ready()) {
     var buttonSizeH = sprite_height * 0.45;
     
     if (imguigml_button("Square",buttonSizeW,buttonSizeH)) {
-        global._sfxr_wave_type = ESfxrWave.Square;
+        sfxr_set_wave_type(ESfxrWave.Square);
         editorID.m_requiresUpdate = true;
     }
     
     imguigml_same_line();
     
     if (imguigml_button("Saw",buttonSizeW,buttonSizeH)) {
-        global._sfxr_wave_type = ESfxrWave.Sawtooth;
+        sfxr_set_wave_type(ESfxrWave.Sawtooth);
         editorID.m_requiresUpdate = true;
     }
     
     imguigml_same_line();
     
     if (imguigml_button("Sine",buttonSizeW,buttonSizeH)) {
-        global._sfxr_wave_type = ESfxrWave.Sine;
+        sfxr_set_wave_type(ESfxrWave.Sine);
         editorID.m_requiresUpdate = true;
     }
     
     imguigml_same_line();
     
     if (imguigml_button("Noise",buttonSizeW,buttonSizeH)) {
-        global._sfxr_wave_type = ESfxrWave.Noise;
+        sfxr_set_wave_type(ESfxrWave.Noise);
         editorID.m_requiresUpdate = true;
     }
     
