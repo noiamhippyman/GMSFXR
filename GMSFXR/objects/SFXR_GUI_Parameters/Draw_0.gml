@@ -1,0 +1,1 @@
+//ignore draw event
