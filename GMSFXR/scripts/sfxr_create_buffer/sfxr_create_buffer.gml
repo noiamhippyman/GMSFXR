@@ -1,6 +1,6 @@
 ///sfxr_create_buffer();
 
-sfxr_prepare_sample();
+__sfxr_prepare_sample();
 
 var buffer = buffer_create(2,buffer_grow,2);
 
@@ -12,7 +12,7 @@ while (global._sfxr_playing_sample) {
     global._sfxr_rep_time++;
     if (global._sfxr_rep_limit != 0 && global._sfxr_rep_time > global._sfxr_rep_limit) {
         global._sfxr_rep_time = 0;
-        sfxr_reset_sample(true);
+        __sfxr_reset_sample(true);
     }
     
     //frequency envelopes/arpeggios
@@ -96,7 +96,7 @@ while (global._sfxr_playing_sample) {
             global._sfxr_phase = global._sfxr_phase % global._sfxr_period;
             if (global._sfxr_wave_type == 3) {
                 for (var j = 0; j < 32; ++j) {
-                    global._sfxr_noise_buffer[j] = sfxr_util_frnd(2) - 1;
+                    global._sfxr_noise_buffer[j] = __sfxr_util_frnd(2) - 1;
                 }
             }
         }
@@ -157,7 +157,7 @@ while (global._sfxr_playing_sample) {
     
     ssample = clamp(ssample,-1,1);
     
-    var rsample = remap_level_signed_16_bit(ssample);
+    var rsample = __sfxr_remap_level_signed_16_bit(ssample);
     buffer_write(buffer,buffer_s16,rsample);
 }
 

@@ -1,8 +1,8 @@
 {
-    "id": "2a35cd3b-c672-4a5e-8c58-08a2712b4929",
+    "id": "f3f30f59-b6aa-4be2-99b4-e50fa3e2b374",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "remap_level_signed_16_bit",
+    "name": "__sfxr_util_frnd",
     "IsCompatibility": false,
     "IsDnD": false
 }

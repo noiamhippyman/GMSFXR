@@ -1,8 +1,8 @@
 {
-    "id": "f3f30f59-b6aa-4be2-99b4-e50fa3e2b374",
+    "id": "48aaa014-f1a6-4085-b016-eba96a3a194c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "sfxr_util_frnd",
+    "name": "sfxr_get_wave_type",
     "IsCompatibility": false,
     "IsDnD": false
 }

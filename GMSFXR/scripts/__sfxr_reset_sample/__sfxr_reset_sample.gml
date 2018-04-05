@@ -59,7 +59,7 @@ if (!restart) {
 	}
 
 	for(var i=0; i<32; i++) {
-		global._sfxr_noise_buffer[i] = sfxr_util_frnd(2) - 1;
+		global._sfxr_noise_buffer[i] = __sfxr_util_frnd(2) - 1;
 	}
 
 	global._sfxr_rep_time = 0;
