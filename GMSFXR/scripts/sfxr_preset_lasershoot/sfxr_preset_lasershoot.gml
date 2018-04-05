@@ -1,9 +1,9 @@
 sfxr_reset();
 sfxr_set_wave_type(irandom(ESfxrWave.Sine));
-if (global._sfxr_wave_type == ESfxrWave.Sine && irandom(1)) sfxr_set_wave_type(irandom(ESfxrWave.Sawtooth));
+if (sfxr_get_wave_type() == ESfxrWave.Sine && irandom(1)) sfxr_set_wave_type(irandom(ESfxrWave.Sawtooth));
 
 sfxr_set_freq_start(0.5 + __sfxr_util_frnd(0.5));
-sfxr_set_freq_min(max(global._sfxr_p_base_freq - 0.2 - __sfxr_util_frnd(0.6),0.2));
+sfxr_set_freq_min(max(sfxr_get_freq_start() - 0.2 - __sfxr_util_frnd(0.6),0.2));
 sfxr_set_freq_slide(-0.15 - __sfxr_util_frnd(0.2));
 
 if (irandom(2) == 0) {

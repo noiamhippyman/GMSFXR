@@ -1,9 +1,10 @@
 sfxr_reset();
 sfxr_set_wave_type(irandom(ESfxrWave.Noise));
-if (global._sfxr_wave_type == ESfxrWave.Sine) {
+var waveType = sfxr_get_wave_type();
+if (waveType == ESfxrWave.Sine) {
 	sfxr_set_wave_type(ESfxrWave.Noise);
 }
-if (global._sfxr_wave_type == ESfxrWave.Square) {
+if (waveType == ESfxrWave.Square) {
 	sfxr_set_square_duty(__sfxr_util_frnd(0.6));
 }
 sfxr_set_freq_start(0.2 + __sfxr_util_frnd(0.6));

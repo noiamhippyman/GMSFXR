@@ -1,6 +1,6 @@
 sfxr_reset();
-sfxr_set_wave_type(irandom(ESfxrWave.Sawtooth));
-if(global._sfxr_wave_type == ESfxrWave.Square) {
+sfxr_set_wave_type(irandom(ESfxrWave.Sine));
+if(sfxr_get_wave_type() == ESfxrWave.Square) {
 	sfxr_set_square_duty(__sfxr_util_frnd(0.6));
 }
 

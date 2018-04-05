@@ -8,7 +8,8 @@ if (irandom(1)) {
 	sfxr_set_freq_slide(-0.2 - __sfxr_util_frnd(0.2));
 }
 
-sfxr_set_freq_start(global._sfxr_p_base_freq * global._sfxr_p_base_freq);
+var baseFreq = sfxr_get_freq_start();
+sfxr_set_freq_start(baseFreq * baseFreq);
 
 if (irandom(4) == 0) {
     sfxr_set_freq_slide(0);

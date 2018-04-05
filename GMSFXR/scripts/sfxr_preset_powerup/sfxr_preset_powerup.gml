@@ -1,4 +1,5 @@
 sfxr_reset();
+sfxr_set_wave_type(ESfxrWave.Square);
 if(irandom(1)) {
 	sfxr_set_wave_type(ESfxrWave.Sawtooth);
 } else {

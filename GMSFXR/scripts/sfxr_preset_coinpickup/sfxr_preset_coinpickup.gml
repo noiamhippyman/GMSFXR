@@ -1,4 +1,5 @@
 sfxr_reset();
+sfxr_set_wave_type(irandom(ESfxrWave.Sine));
 sfxr_set_freq_start(0.4 + __sfxr_util_frnd(0.5));
 sfxr_set_env_attack_time(0);
 sfxr_set_env_sustain_time(__sfxr_util_frnd(0.1));

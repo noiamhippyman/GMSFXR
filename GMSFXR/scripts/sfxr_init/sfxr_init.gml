@@ -20,7 +20,6 @@ global._sfxr_p_env_sustain = 0.3;
 global._sfxr_p_env_decay = 0.4;
 global._sfxr_p_env_punch = 0.0;
 
-global._sfxr_filter_on = false;
 global._sfxr_p_lpf_resonance = 0.0;
 global._sfxr_p_lpf_freq = 1.0;
 global._sfxr_p_lpf_ramp = 0.0;
