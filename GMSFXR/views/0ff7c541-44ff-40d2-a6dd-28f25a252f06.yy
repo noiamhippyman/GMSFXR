@@ -8,7 +8,8 @@
         "cb07dcc2-514a-4413-9169-dda08d481def",
         "cbeae9dc-0bda-4b3f-a344-597ce84b52e3",
         "0aed2298-6d37-42c7-8abe-6bbc3eca31fe",
-        "f60120c5-3f76-443b-8d01-a3e024720dee"
+        "f60120c5-3f76-443b-8d01-a3e024720dee",
+        "cd0467ec-f548-4744-adda-994d62a9c167"
     ],
     "filterType": "GMObject",
     "folderName": "SFXR Editor",

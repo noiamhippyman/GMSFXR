@@ -1,7 +1,7 @@
 if (imguigml_ready()) {
     imguigml_set_next_window_pos(x,y);
     imguigml_set_next_window_size(sprite_width,sprite_height);
-    imguigml_begin("Parameters",undefined,EImGui_WindowFlags.NoMove|EImGui_WindowFlags.NoResize|EImGui_WindowFlags.NoCollapse);
+    imguigml_begin("Parameters",undefined,EImGui_WindowFlags.NoTitleBar|EImGui_WindowFlags.NoMove|EImGui_WindowFlags.NoResize|EImGui_WindowFlags.NoCollapse);
     
     var ret = imguigml_slider_float("Attack Time",sfxr_get_env_attack_time(),0,1);
     if (ret[0]) {

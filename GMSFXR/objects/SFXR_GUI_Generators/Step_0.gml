@@ -1,9 +1,9 @@
 if (imguigml_ready()) {
     imguigml_set_next_window_pos(x,y);
     imguigml_set_next_window_size(sprite_width,sprite_height);
-    imguigml_begin("Generators",undefined,EImGui_WindowFlags.NoMove|EImGui_WindowFlags.NoResize|EImGui_WindowFlags.NoCollapse);
+    imguigml_begin("Generators",undefined,EImGui_WindowFlags.NoTitleBar|EImGui_WindowFlags.NoMove|EImGui_WindowFlags.NoResize|EImGui_WindowFlags.NoCollapse);
     
-    var buttonSizeW = sprite_width * 0.85;
+    var buttonSizeW = sprite_width * 0.885;
     var buttonSizeH = sprite_height * 0.085;
     
     if (imguigml_button("PICKUP/COIN",buttonSizeW,buttonSizeH)) {

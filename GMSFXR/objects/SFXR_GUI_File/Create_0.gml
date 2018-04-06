@@ -1,0 +1,3 @@
+editorID = noone;
+
+filename = "";
