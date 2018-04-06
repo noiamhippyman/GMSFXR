@@ -3,7 +3,7 @@ if (imguigml_ready()) {
     imguigml_set_next_window_size(sprite_width,sprite_height);
     imguigml_begin("Playback",undefined,EImGui_WindowFlags.NoMove|EImGui_WindowFlags.NoResize|EImGui_WindowFlags.NoCollapse);
     
-        var ret = imguigml_slider_float("Volume", global._sfxr_master_vol,0,1);
+        var ret = imguigml_slider_float("Volume", sfxr_get_master_volume(), 0, 1);
         if (ret[0]) {
             sfxr_set_master_volume(ret[1]);
             editorID.m_requiresUpdate = true;

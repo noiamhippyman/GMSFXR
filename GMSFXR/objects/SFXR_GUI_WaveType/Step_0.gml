@@ -35,7 +35,7 @@ if (imguigml_ready()) {
     imguigml_same_line();
     
     var text;
-    switch (global._sfxr_wave_type) {
+    switch (sfxr_get_wave_type()) {
         case ESfxrWave.Square: text = "Square"; break;
         case ESfxrWave.Sawtooth: text = "Saw"; break;
         case ESfxrWave.Sine: text = "Sine"; break;

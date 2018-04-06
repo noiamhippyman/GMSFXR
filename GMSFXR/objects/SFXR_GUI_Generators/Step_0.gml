@@ -4,7 +4,7 @@ if (imguigml_ready()) {
     imguigml_begin("Generators",undefined,EImGui_WindowFlags.NoMove|EImGui_WindowFlags.NoResize|EImGui_WindowFlags.NoCollapse);
     
     var buttonSizeW = sprite_width * 0.85;
-    var buttonSizeH = sprite_height * 0.095;
+    var buttonSizeH = sprite_height * 0.085;
     
     if (imguigml_button("PICKUP/COIN",buttonSizeW,buttonSizeH)) {
         sfxr_preset_coinpickup();
@@ -50,6 +50,11 @@ if (imguigml_ready()) {
     
     if (imguigml_button("RANDOMIZE",buttonSizeW,buttonSizeH)) {
         sfxr_preset_randomize();
+        editorID.m_requiresUpdate = true;
+    }
+    
+    if (imguigml_button("RESET",buttonSizeW,buttonSizeH)) {
+        sfxr_reset();
         editorID.m_requiresUpdate = true;
     }
     
