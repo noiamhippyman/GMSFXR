@@ -287,14 +287,6 @@
             }
         },
         {
-            "Key": "3bfc5b66-ee21-45a1-9682-eed705d49cfc",
-            "Value": {
-                "id": "7d02893b-54e5-4604-b66c-23e135f0dee3",
-                "resourcePath": "notes\\compatibility_report_060418_1156135613.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "3d4f574e-32e3-406b-82d4-8d2d6fe5546a",
             "Value": {
                 "id": "3736b36a-68da-44ba-90ca-754236420ed3",
@@ -975,14 +967,6 @@
             }
         },
         {
-            "Key": "c4d81982-a257-42af-ac6a-ec92b9dcdbcd",
-            "Value": {
-                "id": "1ccfb810-2068-4bfe-9900-a98a22f23c81",
-                "resourcePath": "views\\c4d81982-a257-42af-ac6a-ec92b9dcdbcd.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "cb07dcc2-514a-4413-9169-dda08d481def",
             "Value": {
                 "id": "9b922afe-4892-43ec-ae1a-bba9e8386585",
@@ -1027,6 +1011,14 @@
             "Value": {
                 "id": "9fc3179a-8033-409d-ac21-aea1226b3559",
                 "resourcePath": "scripts\\sfxr_get_vibrato_depth\\sfxr_get_vibrato_depth.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d3735a7c-d96e-4ee7-9f33-463344918bd5",
+            "Value": {
+                "id": "a9fcfc0d-fe7f-45e5-967f-a8b8cd95b7e9",
+                "resourcePath": "scripts\\sfxr_editor_play_sound\\sfxr_editor_play_sound.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1276,7 +1268,8 @@
         "5ec5071b-6ee8-40f7-9067-495de1a2f285",
         "81b8662b-1eb8-416c-8cad-6b3602cdacb4",
         "54d4842c-6dfd-41a3-b54b-55744d940586",
-        "13a264e2-83f6-4961-b16d-63792ab83aee"
+        "13a264e2-83f6-4961-b16d-63792ab83aee",
+        "d3735a7c-d96e-4ee7-9f33-463344918bd5"
     ],
     "tutorial": ""
 }

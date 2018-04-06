@@ -1,0 +1,1 @@
+sfxr_editor_play_sound(id);

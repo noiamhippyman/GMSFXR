@@ -1,176 +1,0 @@
-Converting GML script: ${project_dir}\scripts\__sfxr_reset_sample\__sfxr_reset_sample.gml
-Converted description /// @description __sfxr_reset_sample(restart);/// @param restart
-
-Converting GML script: ${project_dir}\scripts\__sfxr_prepare_sample\__sfxr_prepare_sample.gml
-Converted description /// @description __sfxr_prepare_sample();
-
-Converting GML script: ${project_dir}\scripts\__sfxr_util_frnd\__sfxr_util_frnd.gml
-Converted description /// @description __sfxr_util_frnd(range);/// @param range
-
-Converting GML script: ${project_dir}\scripts\__sfxr_remap_level_signed_16_bit\__sfxr_remap_level_signed_16_bit.gml
-Converted description /// @description  @description __sfxr_remap_level_signed_16_bit(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_wave_type\sfxr_set_wave_type.gml
-Converted description /// @description sfxr_set_wave_type(ESfxWave);/// @param ESfxWave
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_master_volume\sfxr_set_master_volume.gml
-Converted description /// @description sfxr_set_master_volume(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_wave_type\sfxr_get_wave_type.gml
-Converted description /// @description sfxr_get_wave_type();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_master_volume\sfxr_get_master_volume.gml
-Converted description /// @description sfxr_get_master_volume();
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_env_attack_time\sfxr_set_env_attack_time.gml
-Converted description /// @description sfxr_set_env_attack_time(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_env_sustain_time\sfxr_set_env_sustain_time.gml
-Converted description /// @description sfxr_set_env_sustain_time(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_env_sustain_punch\sfxr_set_env_sustain_punch.gml
-Converted description /// @description sfxr_set_env_sustain_punch(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_env_decay_time\sfxr_set_env_decay_time.gml
-Converted description /// @description sfxr_set_env_decay_time(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_env_attack_time\sfxr_get_env_attack_time.gml
-Converted description /// @description sfxr_get_env_attack_time();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_env_sustain_time\sfxr_get_env_sustain_time.gml
-Converted description /// @description sfxr_get_env_sustain_time();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_env_sustain_punch\sfxr_get_env_sustain_punch.gml
-Converted description /// @description sfxr_set_env_sustain_punch();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_env_decay_time\sfxr_get_env_decay_time.gml
-Converted description /// @description sfxr_get_env_decay_time();
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_freq_start\sfxr_set_freq_start.gml
-Converted description /// @description sfxr_set_freq_start(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_freq_min\sfxr_set_freq_min.gml
-Converted description /// @description sfxr_set_freq_min(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_freq_slide\sfxr_set_freq_slide.gml
-Converted description /// @description sfxr_set_freq_slide(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_freq_delta_slide\sfxr_set_freq_delta_slide.gml
-Converted description /// @description sfxr_set_freq_delta_slide(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_freq_start\sfxr_get_freq_start.gml
-Converted description /// @description sfxr_get_freq_start();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_freq_min\sfxr_get_freq_min.gml
-Converted description /// @description sfxr_get_freq_min();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_freq_slide\sfxr_get_freq_slide.gml
-Converted description /// @description sfxr_get_freq_slide();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_freq_delta_slide\sfxr_get_freq_delta_slide.gml
-Converted description /// @description sfxr_get_freq_delta_slide();
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_vibrato_depth\sfxr_set_vibrato_depth.gml
-Converted description /// @description sfxr_set_vibrato_depth(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_vibrato_speed\sfxr_set_vibrato_speed.gml
-Converted description /// @description sfxr_set_vibrato_speed(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_vibrato_delay\sfxr_set_vibrato_delay.gml
-Converted description /// @description sfxr_set_vibrato_delay(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_vibrato_depth\sfxr_get_vibrato_depth.gml
-Converted description /// @description sfxr_get_vibrato_depth();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_vibrato_speed\sfxr_get_vibrato_speed.gml
-Converted description /// @description sfxr_get_vibrato_speed();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_vibrato_delay\sfxr_get_vibrato_delay.gml
-Converted description /// @description sfxr_get_vibrato_delay();
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_change_amount\sfxr_set_change_amount.gml
-Converted description /// @description sfxr_set_change_amount(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_change_speed\sfxr_set_change_speed.gml
-Converted description /// @description sfxr_set_change_speed(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_change_amount\sfxr_get_change_amount.gml
-Converted description /// @description sfxr_get_change_amount();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_change_speed\sfxr_get_change_speed.gml
-Converted description /// @description sfxr_get_change_speed();
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_square_duty\sfxr_set_square_duty.gml
-Converted description /// @description sfxr_set_square_duty(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_square_sweep\sfxr_set_square_sweep.gml
-Converted description /// @description sfxr_set_square_sweep(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_square_duty\sfxr_get_square_duty.gml
-Converted description /// @description sfxr_get_square_duty();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_square_sweep\sfxr_get_square_sweep.gml
-Converted description /// @description sfxr_get_square_sweep();
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_repeat_speed\sfxr_set_repeat_speed.gml
-Converted description /// @description sfxr_set_repeat_speed(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_repeat_speed\sfxr_get_repeat_speed.gml
-Converted description /// @description sfxr_get_repeat_speed();
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_phaser_offset\sfxr_set_phaser_offset.gml
-Converted description /// @description sfxr_set_phaser_offset(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_phaser_sweep\sfxr_set_phaser_sweep.gml
-Converted description /// @description sfxr_set_phaser_sweep(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_phaser_offset\sfxr_get_phaser_offset.gml
-Converted description /// @description sfxr_get_phaser_offset();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_phaser_sweep\sfxr_get_phaser_sweep.gml
-Converted description /// @description sfxr_get_phaser_sweep();
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_filter_lowpass_cutoff\sfxr_set_filter_lowpass_cutoff.gml
-Converted description /// @description sfxr_set_filter_lowpass_cutoff(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_filter_lowpass_sweep\sfxr_set_filter_lowpass_sweep.gml
-Converted description /// @description sfxr_set_filter_lowpass_sweep(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_filter_lowpass_resonance\sfxr_set_filter_lowpass_resonance.gml
-Converted description /// @description sfxr_set_filter_lowpass_resonance(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_filter_hipass_cutoff\sfxr_set_filter_hipass_cutoff.gml
-Converted description /// @description sfxr_set_filter_hipass_cutoff(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_set_filter_hipass_sweep\sfxr_set_filter_hipass_sweep.gml
-Converted description /// @description sfxr_set_filter_hipass_sweep(value);/// @param value
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_filter_lowpass_cutoff\sfxr_get_filter_lowpass_cutoff.gml
-Converted description /// @description sfxr_get_filter_lowpass_cutoff();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_filter_lowpass_sweep\sfxr_get_filter_lowpass_sweep.gml
-Converted description /// @description sfxr_get_filter_lowpass_sweep();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_filter_lowpass_resonance\sfxr_get_filter_lowpass_resonance.gml
-Converted description /// @description sfxr_get_filter_lowpass_resonance();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_filter_hipass_cutoff\sfxr_get_filter_hipass_cutoff.gml
-Converted description /// @description sfxr_get_filter_hipass_cutoff();
-
-Converting GML script: ${project_dir}\scripts\sfxr_get_filter_hipass_sweep\sfxr_get_filter_hipass_sweep.gml
-Converted description /// @description sfxr_get_filter_hipass_sweep();
-
-Converting GML script: ${project_dir}\scripts\sfxr_reset\sfxr_reset.gml
-Converted description /// @description sfxr_reset();
-
-Converting GML script: ${project_dir}\scripts\sfxr_create_buffer\sfxr_create_buffer.gml
-Converted description /// @description sfxr_create_buffer();
-
-Converting GML script: ${project_dir}\scripts\sfxr_free_buffer\sfxr_free_buffer.gml
-Converted description /// @description sfxr_free_buffer(buffer);/// @param buffer
-
-Converting GML script: ${project_dir}\scripts\sfxr_create_audio\sfxr_create_audio.gml
-Converted description /// @description sfxr_create_audio(buffer);/// @param buffer
-
-Converting GML script: ${project_dir}\scripts\sfxr_free_audio\sfxr_free_audio.gml
-Converted description /// @description sfxr_free_audio(soundID);/// @param soundID
