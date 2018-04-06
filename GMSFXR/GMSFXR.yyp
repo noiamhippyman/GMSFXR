@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "3e57b23e-277d-4a34-8997-b53327e62e7a",
+            "Value": {
+                "id": "5e36596a-6bbb-4b59-8a8e-df885579ea78",
+                "resourcePath": "scripts\\sfxr_editor_get_saved_files\\sfxr_editor_get_saved_files.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3e9d0a89-489d-4e90-a38b-bd151049fd9c",
             "Value": {
                 "id": "784a5779-c2c7-4b1f-9466-34d3ef877bdc",
@@ -1327,7 +1335,8 @@
         "81b8662b-1eb8-416c-8cad-6b3602cdacb4",
         "54d4842c-6dfd-41a3-b54b-55744d940586",
         "13a264e2-83f6-4961-b16d-63792ab83aee",
-        "d3735a7c-d96e-4ee7-9f33-463344918bd5"
+        "d3735a7c-d96e-4ee7-9f33-463344918bd5",
+        "3e57b23e-277d-4a34-8997-b53327e62e7a"
     ],
     "tutorial": ""
 }
