@@ -12,7 +12,7 @@ KEEP IN MIND!! YOU CAN ONLY CREATE AND FREE SOUNDS. YOU CAN'T MODIFY EXISTING SO
 
 Download the extension at the following locations.
 
-Itch.io: [LINK]
+Itch.io: [https://hippyman.itch.io/gmsfxr]
 
 GameMaker Marketplace: [https://marketplace.yoyogames.com/assets/6726/gmsfxr]
 
