@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "495fdb97-c146-4051-85b0-f18418f8e10b",
+            "Value": {
+                "id": "d05d4826-e8a7-46ed-a3bc-71421527d14a",
+                "resourcePath": "views\\495fdb97-c146-4051-85b0-f18418f8e10b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "49bcaf47-8906-45d6-bca8-ca95185fe6ce",
             "Value": {
                 "id": "9a73a295-09a0-45ed-a403-f588ddd1ef02",
@@ -572,6 +580,14 @@
                 "id": "f1f3b16a-89fc-4888-b422-4030c34c5424",
                 "resourcePath": "scripts\\sfxr_set_phaser_sweep\\sfxr_set_phaser_sweep.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "71ccd1bf-db51-4be0-8bc4-ca84f6599205",
+            "Value": {
+                "id": "90ef0e2e-8c12-49de-b9d8-2edc5d630c1f",
+                "resourcePath": "sprites\\sprite11\\sprite11.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1068,6 +1084,14 @@
                 "id": "d88dcb1b-2447-4126-ae2f-3192f50a8628",
                 "resourcePath": "objects\\SFXR_GUI_File\\SFXR_GUI_File.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ce6da9b3-c53c-49c8-bc6d-71bc7520704f",
+            "Value": {
+                "id": "abf1c749-f49e-447b-9a22-f5e93fe0e067",
+                "resourcePath": "sprites\\sprite12\\sprite12.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
