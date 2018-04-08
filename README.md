@@ -11,8 +11,10 @@ I've only tested on Windows and most likely will only test it on Windows.
 KEEP IN MIND!! YOU CAN ONLY CREATE AND FREE SOUNDS. YOU CAN'T MODIFY EXISTING SOUNDS.
 
 Download the extension at the following locations.
+
 Itch.io: [LINK]
-GameMaker Marketplace: [LINK]
+
+GameMaker Marketplace: [https://marketplace.yoyogames.com/assets/6726/gmsfxr]
 
 Using ImGuiGML for the editor GUI. You can find this extension here:
 https://forum.yoyogames.com/index.php?threads/imguigml-imgui-bindings-for-gms-2.38934/

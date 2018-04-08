@@ -3,7 +3,7 @@ var filename = argument0;
 var ext = ".sfxs";
 if (!file_exists(filename+ext)) {
     show_message("File not found");
-    exit;
+    return false;
 }
 
 var file = file_text_open_read(filename+ext);
@@ -61,3 +61,5 @@ sfxr_set_filter_hipass_cutoff(filterMap[?"high-pass cutoff"]);
 sfxr_set_filter_hipass_sweep(filterMap[?"high-pass sweep"]);
 
 ds_map_destroy(dataMap);
+
+return true;
